@@ -1,4 +1,4 @@
-# Bem-vindo(a) ao perfil de Caio Renato
+## Bem-vindo(a) ao perfil de Caio Renato
 
 <div>
   <a href="https://github.com/CaioRen4to">
@@ -20,7 +20,7 @@
   <img align="center" alt="Angular" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angular/angular-original.svg" />
 </div>
 
-# Pra conteúdo sobre programação me segue a gente nas redes abaixo!
+### Pra conteúdo sobre programação me segue a gente nas redes abaixo!
 
 <div>
     <a href="https://www.instagram.com/caio.renato011/" target="_blank">
