@@ -1,6 +1,6 @@
 # Bem-vindo(a) ao perfil de Caio Renato
 
-<div align="center">
+<div>
   <a href="https://github.com/CaioRen4to">
     <img src="https://github-readme-stats.vercel.app/api?username=CaioRen4to&show_icons=true&theme=dark&include_all_commits=true&count_private=true" alt="Estatísticas do GitHub" />
   </a>
@@ -22,7 +22,7 @@
 
 # Pra conteúdo sobre programação me segue a gente nas redes abaixo!
 
-<div align="center">
+<div>
  
   <li>
     <a href="https://www.instagram.com/caio.renato011/" target="_blank">
