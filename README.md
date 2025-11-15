@@ -1,4 +1,4 @@
-## Bem-vindo(a) ao perfil do Caio
+## Bem-vindo(a) ao perfil de Caio Renato
 
  <div>
    <a href="https://github.com/CaioRen4to">
@@ -25,7 +25,7 @@
  
   <a href="https://www.instagram.com/caio.renat0" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank">
   </a>
-  <a href = "mailto:caio.renato011@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank">
+  <a href="mailto:caio.renato011@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=Gmail&logoColor=white" alt="Email"/>
   </a>
   <a href="https://www.linkedin.com/in/caio-renato-147451358" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"> 
   </a>
