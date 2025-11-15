@@ -23,23 +23,13 @@
 # Pra conteúdo sobre programação me segue a gente nas redes abaixo!
 
 <div>
- 
-  <li>
     <a href="https://www.instagram.com/caio.renato011/" target="_blank">
       <img src="https://img.shields.io/badge/-Instagram-E4405F?style=for-the-badge&logo=Instagram&logoColor=white" alt="Instagram"/>
     </a>
-  </li>
-  
-  <li>
     <a href="mailto:caio.renato011@gmail.com" target="_blank">
       <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=Gmail&logoColor=white" alt="Email"/>
     </a>
-  </li>
-  
-  <li>
     <a href="https://www.linkedin.com/in/caio-renato-544925b0/" target="_blank">
       <img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
     </a>
-  </li>
-  
 </div>
