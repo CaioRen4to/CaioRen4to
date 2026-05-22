@@ -1,16 +1,16 @@
 # Caio Renato
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?color=58A6FF&size=26&center=true&vCenter=true&width=1000&lines=Desenvolvedor+Full+Stack;Python+%7C+IA+%7C+Automações;Estudante+de+ADS" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=58A6FF&center=true&vCenter=true&width=900&lines=Desenvolvedor+Full+Stack;Python+%7C+IA+%7C+Automações;Estudante+de+ADS" />
 </p>
 
 ---
 
 ## Sobre mim
 
-Estudante de Análise e Desenvolvimento de Sistemas, focado em desenvolvimento Full Stack, Python, automações e inteligência artificial.
+Estudante de Análise e Desenvolvimento de Sistemas, focado em desenvolvimento Full Stack, backend com Python, automações e inteligência artificial.
 
-Atualmente desenvolvendo projetos práticos para evoluir minhas habilidades em backend, banco de dados e aplicações modernas.
+Atualmente desenvolvendo projetos práticos para evoluir minhas habilidades em desenvolvimento de software, banco de dados e aplicações modernas.
 
 ---
 
@@ -32,22 +32,22 @@ Atualmente desenvolvendo projetos práticos para evoluir minhas habilidades em b
 
 ---
 
-## GitHub Stats
+## Estatísticas
 
 <div align="center">
   <a href="https://github.com/CaioRen4to">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=CaioRen4to&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=CaioRen4to&layout=compact&langs_count=7&theme=tokyonight"/>
+    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=CaioRen4to&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true"/>
+    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=CaioRen4to&layout=compact&langs_count=7&theme=tokyonight&hide_border=true"/>
   </a>
 </div>
 
 ---
 
-## Contribuições
+## Atividade
 
 <div align="center">
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=CaioRen4to&theme=tokyonight)](https://git.io/streak-stats)
+<img src="https://streak-stats.demolab.com?user=CaioRen4to&theme=tokyonight&hide_border=true" />
 
 </div>
 
