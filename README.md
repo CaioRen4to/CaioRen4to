@@ -14,7 +14,7 @@ Análise de Dados • Inteligência Artificial • Automação de Processos • 
 
 ## Sobre mim
 
-Entusiasta de dados, inteligência artificial e automações com foco em criar soluções que geram impacto real.
+Estudante de dados, inteligência artificial e automações com foco em criar soluções que geram impacto real.
 
 Atualmente estudo e desenvolvo projetos envolvendo análise de dados, machine learning, automações e aplicações que integram dados e inteligência para tomada de decisão.
 
