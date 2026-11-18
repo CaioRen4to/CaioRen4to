@@ -1,16 +1,85 @@
-<svg viewBox="0 0 1200 260" width="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Caio Renato — Desenvolvedor Full-Stack, Dados e IA">
+<svg viewBox="0 0 1200 280" width="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Caio Renato — Transformando dados em inteligência, automatizando processos e criando soluções">
   <title>Caio Renato</title>
-  <desc>Desenvolvedor Full-Stack, Dados e IA. Python e Flask, React PWA, PostgreSQL e Dados, Automação e IA Aplicada. João Pessoa, Brasil.</desc>
+  <desc>Transformando dados em inteligência. Automatizando processos. Criando soluções. Python e Flask, React PWA, PostgreSQL e IA Aplicada.</desc>
   <defs>
     <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#6366F1"/>
-      <stop offset="55%" stop-color="#06B6D4"/>
+      <stop offset="50%" stop-color="#06B6D4"/>
       <stop offset="100%" stop-color="#10B981"/>
     </linearGradient>
+    <linearGradient id="sweep" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366F1" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#06B6D4" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#10B981" stop-opacity="0"/>
+    </linearGradient>
   </defs>
-  <rect width="1200" height="260" rx="16" fill="#0B0F17" stroke="#1E293B" stroke-width="1.2"/>
-  <rect x="72" y="56" width="64" height="3" rx="1.5" fill="url(#accent)"/>
+  <style>
+    @keyframes pulseDot {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.35; transform: scale(0.85); }
+    }
+    @keyframes sweepBar {
+      0% { transform: translateX(-240px); }
+      100% { transform: translateX(1200px); }
+    }
+    @keyframes phrase1 {
+      0%, 28% { opacity: 1; transform: translateY(0px); }
+      33%, 95% { opacity: 0; transform: translateY(-6px); }
+      100% { opacity: 1; transform: translateY(0px); }
+    }
+    @keyframes phrase2 {
+      0%, 31% { opacity: 0; transform: translateY(6px); }
+      35%, 61% { opacity: 1; transform: translateY(0px); }
+      66%, 100% { opacity: 0; transform: translateY(-6px); }
+    }
+    @keyframes phrase3 {
+      0%, 64% { opacity: 0; transform: translateY(6px); }
+      68%, 94% { opacity: 1; transform: translateY(0px); }
+      99%, 100% { opacity: 0; transform: translateY(-6px); }
+    }
+    @keyframes blinkCursor {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+    .dot { transform-origin: 964px 72px; animation: pulseDot 2.2s ease-in-out infinite; }
+    .sweep { animation: sweepBar 4.5s ease-in-out infinite; }
+    .p1 { animation: phrase1 9s ease-in-out infinite; }
+    .p2 { animation: phrase2 9s ease-in-out infinite; }
+    .p3 { animation: phrase3 9s ease-in-out infinite; }
+    .cursor { animation: blinkCursor 1s step-end infinite; }
+    @media (prefers-reduced-motion: reduce) {
+      .dot, .sweep, .p1, .p2, .p3, .cursor { animation: none; }
+      .p1 { opacity: 1; }
+      .p2, .p3 { opacity: 0; }
+    }
+  </style>
+
+  <clipPath id="card-clip">
+    <rect width="1200" height="280" rx="16"/>
+  </clipPath>
+
+  <rect width="1200" height="280" rx="16" fill="#0B0F17" stroke="#1E293B" stroke-width="1.2"/>
+  <g clip-path="url(#card-clip)">
+    <rect x="0" y="0" width="240" height="3" fill="url(#sweep)" class="sweep"/>
+  </g>
+
+  <rect x="72" y="58" width="64" height="3" rx="1.5" fill="url(#accent)"/>
+
+  <!-- Live status pill -->
+  <rect x="944" y="54" width="184" height="34" rx="17" fill="#0F172A" stroke="#1E293B" stroke-width="1.1"/>
+  <circle cx="964" cy="71" r="4.5" fill="#34D399" class="dot"/>
+  <text x="978" y="76" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12" font-weight="600" fill="#CBD5E1">ADS 2026 · ONLINE</text>
+
   <text x="72" y="120" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="46" font-weight="800" fill="#F8FAFC" letter-spacing="-1">Caio Renato</text>
-  <text x="72" y="158" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="18.5" font-weight="400" fill="#CBD5E1">Python &amp; Flask · React PWA · PostgreSQL &amp; Dados · Automação &amp; IA Aplicada</text>
-  <text x="72" y="206" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13.5" fill="#94A3B8">João Pessoa, Brasil   ·   ADS 2026   ·   Open Source &amp; SaaS</text>
+
+  <!-- Rotating animated taglines -->
+  <g>
+    <text x="72" y="162" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#22D3EE" class="p1">Transformando dados em inteligência.</text>
+    <text x="72" y="162" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#22D3EE" class="p2">Automatizando processos de ponta a ponta.</text>
+    <text x="72" y="162" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#22D3EE" class="p3">Criando soluções com Backend, Dados e IA.</text>
+  </g>
+
+  <text x="72" y="200" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" font-weight="400" fill="#CBD5E1">Python &amp; Flask · React PWA · PostgreSQL · n8n · Sistemas Multiagente</text>
+  <text x="72" y="236" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13" fill="#94A3B8">&gt; João Pessoa, Brasil · Open Source &amp; SaaS</text>
+  <rect x="412" y="223" width="8" height="15" rx="1.5" fill="#22D3EE" class="cursor"/>
 </svg>

@@ -2,12 +2,8 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
-    <img src="assets/hero-dark.svg" alt="Caio Renato — Python, React, Dados e IA" width="100%">
+    <img src="assets/hero-dark.svg" alt="Caio Renato — Transformando dados em inteligência, automatizando processos e criando soluções" width="100%">
   </picture>
-</p>
-
-<p align="center">
-  <strong>Transformando dados em inteligência. Automatizando processos. Criando soluções.</strong>
 </p>
 
 <p align="center">
@@ -36,14 +32,6 @@ Construo sistemas completos ponta a ponta — da modelagem relacional e regras d
 - **[Agent Company](https://github.com/CaioRen4to/agent-company)** · `Open source · MIT`
   Arquitetura multiagente com 21 especialistas, 8 *Core Skills*, varredura de segurança em 8 pontos e governança *Fail-Closed*.
   Stack: `Python` · `SQLite` · `GitHub Actions` · `GPT` · `Gemini` · `Claude`
-
-- **[IdenPark](https://github.com/CaioRen4to/IdenPark)** · `Público`
-  Aplicação web em TypeScript com foco em estrutura modular e experiência de uso.
-  Stack: `TypeScript`
-
-- **[FinanceAgenda](https://github.com/CaioRen4to/FinanceAgenda)** · `Público`
-  Aplicação para organização financeira pessoal e acompanhamento de compromissos.
-  Stack: `TypeScript`
 
 ---
 
