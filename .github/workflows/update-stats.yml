@@ -10,12 +10,15 @@ on:
     - cron: "0 6 * * *" # Atualiza todos os dias às 03:00 (BRT)
   workflow_dispatch:
 
+# Serialize writes to main with snake.yml.
 concurrency:
-  group: update-stats
+  group: profile-assets-main
+  queue: max
   cancel-in-progress: false
 
 jobs:
   update-stats:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     timeout-minutes: 10
     permissions:
@@ -80,6 +83,7 @@ jobs:
           git add assets/stats-*.svg assets/top-langs-*.svg
           if ! git diff --staged --quiet; then
             AUTH_B64=$(printf 'x-access-token:%s' "$GITHUB_TOKEN" | base64 -w0)
+            echo "::add-mask::$AUTH_B64"
             git commit -m "chore: auto-update GitHub stats SVGs [skip ci]"
             git -c "http.https://github.com/.extraheader=AUTHORIZATION: basic $AUTH_B64" pull --rebase origin main
             git -c "http.https://github.com/.extraheader=AUTHORIZATION: basic $AUTH_B64" push origin HEAD:main

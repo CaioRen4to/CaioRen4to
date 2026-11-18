@@ -27,7 +27,7 @@
   <rect x="0" y="0" width="900" height="44" fill="#0F172A" clip-path="url(#clip)"/>
   <line x1="0" y1="44" x2="900" y2="44" stroke="#1E293B" stroke-width="1.2"/>
   <text x="32" y="28" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13" font-weight="700" fill="#22D3EE" letter-spacing="1.5">CARTÃO DE TREINADOR</text>
-  <text x="868" y="28" text-anchor="end" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13" fill="#94A3B8">Nº 0001 · ADS 2026</text>
+  <text x="868" y="28" text-anchor="end" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13" fill="#94A3B8">Nº 0001 · Parceiro: Charizard</text>
 
   <g class="med">
     <circle cx="112" cy="130" r="68" fill="none" stroke="url(#ring)" stroke-width="3" stroke-dasharray="14 9" class="ring"/>

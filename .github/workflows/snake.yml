@@ -1,0 +1,55 @@
+name: Update GitHub Contribution Snake SVGs
+
+on:
+  push:
+    branches: ["main"]
+    paths:
+      - ".github/workflows/snake.yml"
+      - "README.md"
+  schedule:
+    - cron: "0 7 * * *"
+  workflow_dispatch:
+
+# Serialize writes to main with update-stats.yml.
+concurrency:
+  group: profile-assets-main
+  queue: max
+  cancel-in-progress: false
+
+jobs:
+  update-snake:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+
+      - name: Generate contribution snake SVGs
+        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3.5.0
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            assets/github-snake-light.svg
+            assets/github-snake-dark.svg?palette=github-dark
+
+      - name: Commit and push updated snake SVGs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- assets/github-snake-light.svg assets/github-snake-dark.svg
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+
+          git commit -m "chore: auto-update GitHub snake SVGs [skip ci]"
+          auth_b64=$(printf 'x-access-token:%s' "$GITHUB_TOKEN" | base64 -w0)
+          echo "::add-mask::$auth_b64"
+          git -c "http.https://github.com/.extraheader=AUTHORIZATION: basic $auth_b64" pull --rebase origin main
+          git -c "http.https://github.com/.extraheader=AUTHORIZATION: basic $auth_b64" push origin HEAD:main

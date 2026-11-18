@@ -2,7 +2,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
-    <img src="assets/hero-dark.svg" alt="Caio Renato — Pokédex Dev" width="100%">
+    <img src="assets/hero-dark.svg" alt="Banner do perfil de Caio Renato com um Mega Charizard X animado: Olá! Eu sou Caio Renato, Pokédex Dev" width="100%">
   </picture>
 </p>
 
@@ -22,23 +22,48 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poke-ball.png" width="24" height="24" alt="Poké Ball">
-  <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/great-ball.png" width="24" height="24" alt="Great Ball">
-  <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/ultra-ball.png" width="24" height="24" alt="Ultra Ball">
-  <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/master-ball.png" width="24" height="24" alt="Master Ball">
+  <img src="https://komarev.com/ghpvc/?username=CaioRen4to&color=6366f1&style=flat-square&label=VISITANTES" alt="Contador de visitantes do perfil de Caio Renato">
 </p>
 
-## Sobre mim
+---
 
-Estudante de **Análise e Desenvolvimento de Sistemas (ADS, 2026)** com foco em **Backend Python**, **Desenvolvimento Web (React/PWA)**, **Banco de Dados (PostgreSQL/SQL)**, **Automação de Processos** e **Inteligência Artificial Aplicada**.
+## Quem sou eu
 
-Construo sistemas completos ponta a ponta — da modelagem relacional e regras de negócio em APIs REST até interfaces responsivas, fluxos automatizados e arquiteturas multiagente.
+Oi, eu sou o **Caio**! Estudo **Análise e Desenvolvimento de Sistemas (ADS, 2026)** e moro em **João Pessoa, Brasil**. Gosto de transformar dados em inteligência, automatizar processos e criar soluções que funcionam de verdade.
+
+- **O que estudo:** Backend Python, Desenvolvimento Web (React/PWA), Banco de Dados (PostgreSQL/SQL), Automação de Processos e Inteligência Artificial Aplicada.
+- **O que construo:** sistemas completos ponta a ponta, da modelagem do banco e das regras de negócio em APIs REST até interfaces responsivas, fluxos automatizados e arquiteturas multiagente.
+- **Como falar comigo:** pelos botões de contato acima (LinkedIn, e-mail ou Instagram).
+
+> Neste perfil, cada Pokémon representa uma parte da minha jornada e da minha stack. Role a página para conhecer a equipe!
+
+---
+
+## Minha Linha Evolutiva
+
+Como o Charmander que vira Charizard, eu sigo evoluindo a cada projeto:
+
+<div align="center">
+
+| Charmander | Charmeleon | Charizard |
+|:---:|:---:|:---:|
+| <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/4.gif" height="80" alt="Charmander animado"> | <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/5.gif" height="80" alt="Charmeleon animado"> | <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/6.gif" height="80" alt="Charizard animado"> |
+| **Começo** | **Aprendendo** | **Construindo** |
+| Lógica e Python | APIs, bancos de dados e React | Sistemas completos em produção |
+
+</div>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10034.gif" height="110" alt="Mega Charizard X animado">
+  <br>
+  <sub><strong>Próxima forma:</strong> Mega Charizard X, arquiteturas multiagente com IA aplicada.</sub>
+</p>
 
 ---
 
 ## Equipe Pokémon em Campo
 
-Cada parceiro representa uma camada da minha stack em produção:
+Cada parceiro representa uma camada da minha stack:
 
 <div align="center">
 
@@ -57,7 +82,7 @@ Cada parceiro representa uma camada da minha stack em produção:
 </div>
 
 <p align="center">
-  <img src="https://pokereadme.murilonoguez.com.br/api?user=CaioRen4to&pokes=448,658,94" alt="Time Pokémon evolutivo por commits no GitHub">
+  <img src="https://pokereadme.murilonoguez.com.br/api?user=CaioRen4to&pokes=6,448,94" alt="Time Pokémon que evolui conforme os commits de Caio Renato: Charmander, Riolu e Gastly">
 </p>
 
 ---
@@ -71,6 +96,7 @@ Cada parceiro representa uma camada da minha stack em produção:
 - <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/ultra-ball.png" width="18" height="18" alt="Ultra Ball"> **#002 · [Agent Company](https://github.com/CaioRen4to/agent-company)** · `Open source · MIT`
   Arquitetura multiagente com 21 especialistas, 8 *Core Skills*, varredura de segurança em 8 pontos e governança *Fail-Closed*.
   Stack: `Python` · `SQLite` · `GitHub Actions` · `GPT` · `Gemini` · `Claude`
+
 
 ---
 
@@ -96,6 +122,7 @@ Cada parceiro representa uma camada da minha stack em produção:
   <img src="https://img.shields.io/badge/Docker-0E7490?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
   <img src="https://img.shields.io/badge/Git-0E7490?style=for-the-badge&logo=git&logoColor=white" alt="Git">
 </p>
+
 
 ---
 
@@ -129,6 +156,26 @@ Cada parceiro representa uma camada da minha stack em produção:
     <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=CaioRen4to&background=F8FAFC&border=CBD5E1&stroke=CBD5E1&ring=0891B2&fire=4F46E5&currStreakNum=0F172A&sideNums=0F172A&currStreakLabel=0E7490&sideLabels=475569&dates=475569">
     <img src="https://streak-stats.demolab.com?user=CaioRen4to&background=0B0F17&border=1E293B&stroke=1E293B&ring=06B6D4&fire=6366F1&currStreakNum=F8FAFC&sideNums=F8FAFC&currStreakLabel=22D3EE&sideLabels=94A3B8&dates=94A3B8" alt="Sequência de contribuições de Caio Renato no GitHub">
   </picture>
+</p>
+
+---
+
+## Cobrinha de Contribuições
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/github-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/github-snake-light.svg">
+    <img src="assets/github-snake-dark.svg" alt="Cobrinha animada percorrendo o gráfico de contribuições de Caio Renato no GitHub" width="100%">
+  </picture>
+</p>
+
+---
+
+## Frase do Dia
+
+<p align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Frase aleatória sobre programação">
 </p>
 
 <p align="center">
