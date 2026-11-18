@@ -1,0 +1,30 @@
+<svg viewBox="0 0 900 104" width="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t d">
+  <title id="t">Sempre aprendendo. Sempre construindo. Sempre evoluindo.</title>
+  <desc id="d">Rodapé animado com ondas suaves e duas Poké Balls flutuando ao lado da frase de fechamento do perfil.</desc>
+  <defs>
+    <linearGradient id="wg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366F1" stop-opacity="0.30"/>
+      <stop offset="50%" stop-color="#06B6D4" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#10B981" stop-opacity="0.30"/>
+    </linearGradient>
+    <clipPath id="clip"><rect width="900" height="104" rx="14"/></clipPath>
+  </defs>
+  <style>
+    @keyframes a { 0%,100% { transform:translateX(0); } 50% { transform:translateX(-40px); } }
+    @keyframes b { 0%,100% { transform:translateX(-30px); } 50% { transform:translateX(10px); } }
+    @keyframes bob { 0%,100% { transform:translateY(0); } 50% { transform:translateY(-5px); } }
+    @keyframes glow { 0%,100% { opacity:1; } 50% { opacity:.45; } }
+    .w1 { animation: a 7s ease-in-out infinite; } .w2 { animation: b 9s ease-in-out infinite; }
+    .bob { animation: bob 3s ease-in-out infinite; } .btn { animation: glow 3s ease-in-out infinite; }
+    @media (prefers-reduced-motion: reduce) { .w1,.w2,.bob,.btn { animation:none; } }
+  </style>
+  <rect width="900" height="104" rx="14" fill="#0B0F17" stroke="#1E293B" stroke-width="1.2"/>
+  <g clip-path="url(#clip)">
+    <path class="w2" opacity=".6" d="M-60 78 Q 90 54, 240 78 T 540 78 T 840 78 T 1140 78 L 1140 120 L -60 120 Z" fill="url(#wg)"/>
+    <path class="w1" d="M-60 88 Q 100 64, 260 88 T 580 88 T 900 88 T 1220 88 L 1220 120 L -60 120 Z" fill="url(#wg)"/>
+  </g>
+  <g class="bob" style="animation-delay:0s"><path d="M 77 52 A 13 13 0 0 1 103 52 Z" fill="#4F46E5"/><path d="M 77 52 A 13 13 0 0 0 103 52 Z" fill="#1E293B"/><circle cx="90" cy="52" r="13" fill="none" stroke="#334155" stroke-width="3"/><line x1="77" y1="52" x2="103" y2="52" stroke="#0B0F17" stroke-width="4.0"/><circle cx="90" cy="52" r="3.8" fill="#0B0F17" stroke="#22D3EE" stroke-width="3" class="btn"/></g>
+  <g class="bob" style="animation-delay:0.8s"><path d="M 797 52 A 13 13 0 0 1 823 52 Z" fill="#4F46E5"/><path d="M 797 52 A 13 13 0 0 0 823 52 Z" fill="#1E293B"/><circle cx="810" cy="52" r="13" fill="none" stroke="#334155" stroke-width="3"/><line x1="797" y1="52" x2="823" y2="52" stroke="#0B0F17" stroke-width="4.0"/><circle cx="810" cy="52" r="3.8" fill="#0B0F17" stroke="#22D3EE" stroke-width="3" class="btn"/></g>
+  <text x="450" y="46" text-anchor="middle" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="17" font-weight="600" fill="#F8FAFC">Sempre aprendendo. Sempre construindo. Sempre evoluindo.</text>
+  <text x="450" y="70" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13" fill="#CBD5E1">CaioRen4to · Pokédex Dev Edition</text>
+</svg>

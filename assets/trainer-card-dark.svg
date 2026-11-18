@@ -1,0 +1,58 @@
+<svg viewBox="0 0 900 250" width="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t d">
+  <title id="t">Cartão de Treinador — Caio Renato</title>
+  <desc id="d">Cartão de treinador estilo Pokédex: Caio Renato, classe Treinador Full-Stack e Dados, região João Pessoa. Tipos Python, React, SQL, n8n e IA, quatro insígnias (API, SQL, UI, BOT) e barra de energia animada.</desc>
+  <defs>
+    <linearGradient id="ring" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#6366F1"/><stop offset="55%" stop-color="#06B6D4"/><stop offset="100%" stop-color="#10B981"/></linearGradient>
+    <linearGradient id="fill" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#6366F1"/><stop offset="55%" stop-color="#06B6D4"/><stop offset="100%" stop-color="#10B981"/></linearGradient>
+    <linearGradient id="holo" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/><stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.07"/><stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
+    <clipPath id="clip"><rect width="900" height="250" rx="16"/></clipPath>
+    <clipPath id="bar"><rect x="214" y="224" width="400" height="10" rx="5"/></clipPath>
+  </defs>
+  <style>
+    @keyframes spin { to { transform:rotate(360deg); } }
+    @keyframes holo { 0% { transform:translateX(-320px) skewX(-18deg); } 100% { transform:translateX(1000px) skewX(-18deg); } }
+    @keyframes shine { 0% { transform:translateX(-120px); } 100% { transform:translateX(520px); } }
+    @keyframes hx { 0%,100% { stroke:#6366F1; opacity:1; } 40% { stroke:#22D3EE; opacity:1; } 70% { opacity:.55; } }
+    @keyframes bobm { 0%,100% { transform:translateY(0); } 50% { transform:translateY(-4px); } }
+    @keyframes blink { 0%,49% { opacity:1; } 50%,100% { opacity:0; } }
+    .ring { transform-origin: 112px 130px; animation: spin 16s linear infinite; }
+    .holo { animation: holo 6s ease-in-out infinite; }
+    .shine { animation: shine 3.4s ease-in-out infinite; }
+    .hx { animation: hx 3.6s ease-in-out infinite; }
+    .med { animation: bobm 3.8s ease-in-out infinite; }
+    .cur { animation: blink 1s step-end infinite; }
+    @media (prefers-reduced-motion: reduce) { .ring,.holo,.shine,.hx,.med,.cur { animation:none; } .holo { opacity:0; } }
+  </style>
+  <rect width="900" height="250" rx="16" fill="#0B0F17" stroke="#1E293B" stroke-width="1.4"/>
+  <rect x="0" y="0" width="900" height="44" fill="#0F172A" clip-path="url(#clip)"/>
+  <line x1="0" y1="44" x2="900" y2="44" stroke="#1E293B" stroke-width="1.2"/>
+  <text x="32" y="28" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13" font-weight="700" fill="#22D3EE" letter-spacing="1.5">CARTÃO DE TREINADOR</text>
+  <text x="868" y="28" text-anchor="end" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13" fill="#94A3B8">Nº 0001 · ADS 2026</text>
+
+  <g class="med">
+    <circle cx="112" cy="130" r="68" fill="none" stroke="url(#ring)" stroke-width="3" stroke-dasharray="14 9" class="ring"/>
+    <circle cx="112" cy="130" r="54" fill="#0F172A" stroke="#1E293B" stroke-width="1.5"/>
+    <path d="M 58 130 A 54 54 0 0 1 166 130 Z" fill="#4F46E5" opacity=".9"/>
+    <line x1="58" y1="130" x2="166" y2="130" stroke="#0B0F17" stroke-width="5"/>
+    <circle cx="112" cy="130" r="22" fill="#0F172A" stroke="#22D3EE" stroke-width="3"/>
+    <text x="112" y="137" text-anchor="middle" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="20" font-weight="800" fill="#F8FAFC">CR</text>
+  </g>
+
+  <text x="214" y="84" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="32" font-weight="800" fill="#F8FAFC" letter-spacing="-.5">Caio Renato</text>
+  <text x="214" y="110" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" fill="#CBD5E1">Classe · Treinador Full-Stack &amp; Dados</text>
+  <text x="214" y="132" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" fill="#CBD5E1">Região · João Pessoa, BR</text>
+  <text x="214" y="160" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12" font-weight="700" fill="#94A3B8" letter-spacing="1.2">TIPOS</text>
+  <rect x="214" y="170" width="80" height="26" rx="13" fill="#0F172A" stroke="#2563EB" stroke-width="1.2"/><text x="254.0" y="187.5" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13" font-weight="700" fill="#60A5FA">Python</text><rect x="302" y="170" width="71" height="26" rx="13" fill="#0F172A" stroke="#6366F1" stroke-width="1.2"/><text x="337.5" y="187.5" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13" font-weight="700" fill="#A5B4FC">React</text><rect x="381" y="170" width="53" height="26" rx="13" fill="#0F172A" stroke="#10B981" stroke-width="1.2"/><text x="407.5" y="187.5" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13" font-weight="700" fill="#6EE7B7">SQL</text><rect x="442" y="170" width="53" height="26" rx="13" fill="#0F172A" stroke="#06B6D4" stroke-width="1.2"/><text x="468.5" y="187.5" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13" font-weight="700" fill="#67E8F9">n8n</text><rect x="503" y="170" width="44" height="26" rx="13" fill="#0F172A" stroke="#6366F1" stroke-width="1.2"/><text x="525.0" y="187.5" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13" font-weight="700" fill="#A5B4FC">IA</text>
+
+  <text x="214" y="217" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12" font-weight="700" fill="#94A3B8" letter-spacing="1.2">ENERGIA · SEMPRE APRENDENDO<tspan fill="#22D3EE" class="cur"> ▌</tspan></text>
+  <rect x="214" y="224" width="400" height="10" rx="5" fill="#1E293B"/>
+  <g clip-path="url(#bar)">
+    <rect x="214" y="224" width="400" height="10" fill="url(#fill)"/>
+    <rect x="214" y="224" width="90" height="10" fill="#FFFFFF" opacity=".35" class="shine"/>
+  </g>
+
+  <text x="745" y="74" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12" font-weight="700" fill="#94A3B8" letter-spacing="1.2">INSÍGNIAS</text>
+  <polygon points="726.0,93.0 726.0,123.0 700.0,138.0 674.0,123.0 674.0,93.0 700.0,78.0" fill="#0F172A" stroke="#6366F1" stroke-width="2" class="hx" style="animation-delay:0.0s"/><text x="700" y="113" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" font-weight="700" fill="#C7D2FE">API</text><polygon points="816.0,93.0 816.0,123.0 790.0,138.0 764.0,123.0 764.0,93.0 790.0,78.0" fill="#0F172A" stroke="#6366F1" stroke-width="2" class="hx" style="animation-delay:0.9s"/><text x="790" y="113" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" font-weight="700" fill="#C7D2FE">SQL</text><polygon points="726.0,177.0 726.0,207.0 700.0,222.0 674.0,207.0 674.0,177.0 700.0,162.0" fill="#0F172A" stroke="#6366F1" stroke-width="2" class="hx" style="animation-delay:1.8s"/><text x="700" y="197" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" font-weight="700" fill="#C7D2FE">UI</text><polygon points="816.0,177.0 816.0,207.0 790.0,222.0 764.0,207.0 764.0,177.0 790.0,162.0" fill="#0F172A" stroke="#6366F1" stroke-width="2" class="hx" style="animation-delay:2.7s"/><text x="790" y="197" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" font-weight="700" fill="#C7D2FE">BOT</text>
+
+  <g clip-path="url(#clip)"><rect x="0" y="0" width="260" height="250" fill="url(#holo)" class="holo"/></g>
+</svg>

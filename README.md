@@ -2,7 +2,15 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
-    <img src="assets/hero-dark.svg" alt="Caio Renato — Transformando dados em inteligência, automatizando processos e criando soluções" width="100%">
+    <img src="assets/hero-dark.svg" alt="Caio Renato — Pokédex Dev" width="100%">
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=2600&pause=1300&repeat=true&center=true&vCenter=true&width=680&height=38&lines=Backend+Python+%26+Flask+%7C+APIs+REST+%26+JWT;React+%26+Vite+PWA+%7C+Interfaces+Responsivas;PostgreSQL+%26+Dados+%7C+Automa%C3%A7%C3%B5es+n8n;Sistemas+Multiagente+com+IA+Aplicada&color=22D3EE">
+    <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=2600&pause=1300&repeat=true&center=true&vCenter=true&width=680&height=38&lines=Backend+Python+%26+Flask+%7C+APIs+REST+%26+JWT;React+%26+Vite+PWA+%7C+Interfaces+Responsivas;PostgreSQL+%26+Dados+%7C+Automa%C3%A7%C3%B5es+n8n;Sistemas+Multiagente+com+IA+Aplicada&color=0E7490">
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=2600&pause=1300&repeat=true&center=true&vCenter=true&width=680&height=38&lines=Backend+Python+%26+Flask+%7C+APIs+REST+%26+JWT;React+%26+Vite+PWA+%7C+Interfaces+Responsivas;PostgreSQL+%26+Dados+%7C+Automa%C3%A7%C3%B5es+n8n;Sistemas+Multiagente+com+IA+Aplicada&color=22D3EE" alt="Especialidades de Caio Renato: Backend Python e Flask, React e Vite PWA, PostgreSQL e automações n8n, sistemas multiagente com IA" width="680">
   </picture>
 </p>
 
@@ -13,7 +21,12 @@
   <a href="https://github.com/CaioRen4to?tab=followers" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/github/followers/CaioRen4to?style=flat-square&color=6366F1&label=Seguidores&logo=github&logoColor=white" alt="Seguidores no GitHub"></a>
 </p>
 
----
+<p align="center">
+  <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poke-ball.png" width="24" height="24" alt="Poké Ball">
+  <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/great-ball.png" width="24" height="24" alt="Great Ball">
+  <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/ultra-ball.png" width="24" height="24" alt="Ultra Ball">
+  <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/master-ball.png" width="24" height="24" alt="Master Ball">
+</p>
 
 ## Sobre mim
 
@@ -23,19 +36,45 @@ Construo sistemas completos ponta a ponta — da modelagem relacional e regras d
 
 ---
 
-## Projetos em destaque
+## Equipe Pokémon em Campo
 
-- **Fluire** · `Privado · Em produção`
+Cada parceiro representa uma camada da minha stack em produção:
+
+<div align="center">
+
+| Backend & APIs | Dados & Banco | Frontend & PWA |
+|:---:|:---:|:---:|
+| <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/448.gif" height="72" alt="Lucario animado"> | <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/376.gif" height="72" alt="Metagross animado"> | <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/658.gif" height="72" alt="Greninja animado"> |
+| **Lucario** | **Metagross** | **Greninja** |
+| `Python · Flask` | `PostgreSQL · SQL` | `React · Vite · TS` |
+
+| Automações & Bots | IA & Multiagentes | Infra & Deploy |
+|:---:|:---:|:---:|
+| <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/94.gif" height="72" alt="Gengar animado"> | <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/479.gif" height="72" alt="Rotom animado"> | <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/6.gif" height="72" alt="Charizard animado"> |
+| **Gengar** | **Rotom** | **Charizard** |
+| `n8n · Webhooks` | `GPT · Gemini · Claude` | `Docker · Git · CI` |
+
+</div>
+
+<p align="center">
+  <img src="https://pokereadme.murilonoguez.com.br/api?user=CaioRen4to&pokes=448,658,94" alt="Time Pokémon evolutivo por commits no GitHub">
+</p>
+
+---
+
+## Pokédex de Projetos
+
+- <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/master-ball.png" width="18" height="18" alt="Master Ball"> **#001 · Fluire** · `Privado · Em produção`
   Sistema digital completo para gestão de estúdios de Pilates: alunos, turmas, frequência, histórico, financeiro e notificações automatizadas.
   Stack: `Python` · `Flask` · `JWT` · `React` · `Vite PWA` · `PostgreSQL` · `Supabase` · `n8n`
 
-- **[Agent Company](https://github.com/CaioRen4to/agent-company)** · `Open source · MIT`
+- <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/ultra-ball.png" width="18" height="18" alt="Ultra Ball"> **#002 · [Agent Company](https://github.com/CaioRen4to/agent-company)** · `Open source · MIT`
   Arquitetura multiagente com 21 especialistas, 8 *Core Skills*, varredura de segurança em 8 pontos e governança *Fail-Closed*.
   Stack: `Python` · `SQLite` · `GitHub Actions` · `GPT` · `Gemini` · `Claude`
 
 ---
 
-## Tecnologias e ferramentas
+## Move Set · Tecnologias e Ferramentas
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-2563EB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
@@ -60,7 +99,15 @@ Construo sistemas completos ponta a ponta — da modelagem relacional e regras d
 
 ---
 
-## Estatísticas e atividade no GitHub
+## Cartão de Treinador & Estatísticas no GitHub
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/trainer-card-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/trainer-card-light.svg">
+    <img src="assets/trainer-card-dark.svg" alt="Cartão de Treinador de Caio Renato: classe Treinador Full-Stack e Dados, tipos Python, React, SQL, n8n e IA, com insígnias API, SQL, UI e BOT" width="100%">
+  </picture>
+</p>
 
 <p align="center">
   <picture>
@@ -84,8 +131,10 @@ Construo sistemas completos ponta a ponta — da modelagem relacional e regras d
   </picture>
 </p>
 
----
-
 <p align="center">
-  <em>Sempre aprendendo. Sempre construindo. Sempre evoluindo.</em>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/footer-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/footer-light.svg">
+    <img src="assets/footer-dark.svg" alt="Sempre aprendendo. Sempre construindo. Sempre evoluindo." width="100%">
+  </picture>
 </p>

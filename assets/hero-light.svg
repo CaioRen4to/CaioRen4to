@@ -1,85 +1,81 @@
-<svg viewBox="0 0 1200 280" width="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Caio Renato — Transformando dados em inteligência, automatizando processos e criando soluções">
-  <title>Caio Renato</title>
-  <desc>Transformando dados em inteligência. Automatizando processos. Criando soluções. Python e Flask, React PWA, PostgreSQL e IA Aplicada.</desc>
+<svg viewBox="0 0 900 260" width="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t d">
+  <title id="t">Caio Renato — Pokédex Dev</title>
+  <desc id="d">Banner animado de perfil: Caio Renato, estudante de ADS com foco em Backend Python, React, PostgreSQL, automações n8n e IA aplicada. Uma Poké Ball balança e brilha ao lado do texto.</desc>
   <defs>
-    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#6366F1"/>
-      <stop offset="50%" stop-color="#06B6D4"/>
-      <stop offset="100%" stop-color="#10B981"/>
-    </linearGradient>
     <linearGradient id="sweep" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#6366F1" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#06B6D4" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#22D3EE" stop-opacity="0.95"/>
       <stop offset="100%" stop-color="#10B981" stop-opacity="0"/>
     </linearGradient>
+    <radialGradient id="lens" cx="40%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#67E8F9"/><stop offset="55%" stop-color="#0891B2"/><stop offset="100%" stop-color="#1D4ED8"/>
+    </radialGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#CBD5E1" opacity="0.7"/></pattern>
+    <clipPath id="clip"><rect width="900" height="260" rx="16"/></clipPath>
   </defs>
   <style>
-    @keyframes pulseDot {
-      0%, 100% { opacity: 1; transform: scale(1); }
-      50% { opacity: 0.35; transform: scale(0.85); }
-    }
-    @keyframes sweepBar {
-      0% { transform: translateX(-240px); }
-      100% { transform: translateX(1200px); }
-    }
-    @keyframes phrase1 {
-      0%, 28% { opacity: 1; transform: translateY(0px); }
-      33%, 95% { opacity: 0; transform: translateY(-6px); }
-      100% { opacity: 1; transform: translateY(0px); }
-    }
-    @keyframes phrase2 {
-      0%, 31% { opacity: 0; transform: translateY(6px); }
-      35%, 61% { opacity: 1; transform: translateY(0px); }
-      66%, 100% { opacity: 0; transform: translateY(-6px); }
-    }
-    @keyframes phrase3 {
-      0%, 64% { opacity: 0; transform: translateY(6px); }
-      68%, 94% { opacity: 1; transform: translateY(0px); }
-      99%, 100% { opacity: 0; transform: translateY(-6px); }
-    }
-    @keyframes blinkCursor {
-      0%, 49% { opacity: 1; }
-      50%, 100% { opacity: 0; }
-    }
-    .dot { transform-origin: 964px 72px; animation: pulseDot 2.2s ease-in-out infinite; }
-    .sweep { animation: sweepBar 4.5s ease-in-out infinite; }
-    .p1 { animation: phrase1 9s ease-in-out infinite; }
-    .p2 { animation: phrase2 9s ease-in-out infinite; }
-    .p3 { animation: phrase3 9s ease-in-out infinite; }
-    .cursor { animation: blinkCursor 1s step-end infinite; }
+    @keyframes pulse { 0%,100% { opacity:1; transform:scale(1); } 50% { opacity:.7; transform:scale(.93); } }
+    @keyframes sweep { 0% { transform:translateX(-260px); } 100% { transform:translateX(900px); } }
+    @keyframes shake { 0%,55%,100% { transform:rotate(0deg); } 60% { transform:rotate(-16deg); } 66% { transform:rotate(14deg); } 72% { transform:rotate(-10deg); } 78% { transform:rotate(8deg); } 84% { transform:rotate(0deg); } }
+    @keyframes float { 0%,100% { transform:translateY(0); } 50% { transform:translateY(-6px); } }
+    @keyframes ping { 0% { transform:scale(.8); opacity:.55; } 100% { transform:scale(1.5); opacity:0; } }
+    @keyframes glow { 0%,55%,100% { opacity:1; } 84%,90% { opacity:.35; } }
+    @keyframes twinkle { 0%,100% { opacity:0; transform:scale(.3); } 50% { opacity:1; transform:scale(1); } }
+    @keyframes rise { 0% { transform:translateY(0); opacity:0; } 15% { opacity:.8; } 100% { transform:translateY(-250px); opacity:0; } }
+    @keyframes blink { 0%,49% { opacity:1; } 50%,100% { opacity:0; } }
+    @keyframes led { 0%,100% { opacity:1; } 50% { opacity:.35; } }
+    @keyframes ph1 { 0%,28% { opacity:1; transform:translateY(0); } 33%,95% { opacity:0; transform:translateY(-6px); } 100% { opacity:1; transform:translateY(0); } }
+    @keyframes ph2 { 0%,31% { opacity:0; transform:translateY(6px); } 35%,61% { opacity:1; transform:translateY(0); } 66%,100% { opacity:0; transform:translateY(-6px); } }
+    @keyframes ph3 { 0%,64% { opacity:0; transform:translateY(6px); } 68%,94% { opacity:1; transform:translateY(0); } 99%,100% { opacity:0; transform:translateY(-6px); } }
+    .lens { transform-origin: 66px 48px; animation: pulse 2.6s ease-in-out infinite; }
+    .sweep { animation: sweep 4.5s ease-in-out infinite; }
+    .float { animation: float 3.8s ease-in-out infinite; }
+    .shake { transform-origin: 770px 130px; animation: shake 4.5s ease-in-out infinite; }
+    .btn { animation: glow 4.5s ease-in-out infinite; }
+    .ping { transform-origin: 770px 130px; animation: ping 3.2s ease-out infinite; }
+    .ping2 { animation-delay: 1.6s; }
+    .tw { animation: twinkle 3.4s ease-in-out infinite; }
+    .t2 { animation-duration: 4.2s; }
+    .dust { animation: rise 7s linear infinite; opacity:0; }
+    .cursor { animation: blink 1s step-end infinite; }
+    .led1 { animation: led 2.2s ease-in-out infinite; } .led2 { animation: led 2.2s ease-in-out .7s infinite; } .led3 { animation: led 2.2s ease-in-out 1.4s infinite; }
+    .p1 { animation: ph1 9s ease-in-out infinite; } .p2 { animation: ph2 9s ease-in-out infinite; } .p3 { animation: ph3 9s ease-in-out infinite; }
     @media (prefers-reduced-motion: reduce) {
-      .dot, .sweep, .p1, .p2, .p3, .cursor { animation: none; }
-      .p1 { opacity: 1; }
-      .p2, .p3 { opacity: 0; }
+      .lens,.sweep,.float,.shake,.btn,.ping,.tw,.dust,.cursor,.led1,.led2,.led3,.p1,.p2,.p3 { animation:none; }
+      .p2,.p3,.ping,.dust { opacity:0; } .tw { opacity:.8; }
     }
   </style>
 
-  <clipPath id="card-clip">
-    <rect width="1200" height="280" rx="16"/>
-  </clipPath>
-
-  <rect width="1200" height="280" rx="16" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.2"/>
-  <g clip-path="url(#card-clip)">
-    <rect x="0" y="0" width="240" height="3" fill="url(#sweep)" class="sweep"/>
+  <rect width="900" height="260" rx="16" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.4"/>
+  <g clip-path="url(#clip)">
+    <rect width="900" height="260" fill="url(#grid)"/>
+    <rect x="0" y="0" width="260" height="3.5" fill="url(#sweep)" class="sweep"/>
+    <circle cx="520" cy="262" r="2.2" fill="#0891B2" class="dust" style="animation-delay:0s;animation-duration:7s"/><circle cx="600" cy="262" r="1.8" fill="#4F46E5" class="dust" style="animation-delay:2.5s;animation-duration:8s"/><circle cx="690" cy="262" r="2.4" fill="#0891B2" class="dust" style="animation-delay:4.5s;animation-duration:6.5s"/><circle cx="790" cy="262" r="1.8" fill="#4F46E5" class="dust" style="animation-delay:1.2s;animation-duration:7.5s"/><circle cx="870" cy="262" r="2.2" fill="#0891B2" class="dust" style="animation-delay:3.3s;animation-duration:8.5s"/>
   </g>
 
-  <rect x="72" y="58" width="64" height="3" rx="1.5" fill="url(#accent)"/>
+  <circle cx="66" cy="48" r="16" fill="#FFFFFF" stroke="#0E7490" stroke-width="2.2"/>
+  <circle cx="66" cy="48" r="11" fill="url(#lens)" class="lens"/>
+  <circle cx="62.5" cy="44.5" r="3" fill="#FFFFFF" opacity=".75"/>
+  <circle cx="100" cy="43" r="4.5" fill="#E11D48" class="led1"/>
+  <circle cx="116" cy="43" r="4.5" fill="#4338CA" class="led2"/>
+  <circle cx="132" cy="43" r="4.5" fill="#047857" class="led3"/>
+  <rect x="152" y="32" width="238" height="28" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.1"/>
+  <text x="271" y="50.5" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13" font-weight="700" fill="#0E7490">POKÉDEX DEV · ADS 2026</text>
 
-  <!-- Live status pill -->
-  <rect x="944" y="54" width="184" height="34" rx="17" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.1"/>
-  <circle cx="964" cy="71" r="4.5" fill="#047857" class="dot"/>
-  <text x="978" y="76" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12" font-weight="600" fill="#334155">ADS 2026 · ONLINE</text>
+  <text x="54" y="116" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="46" font-weight="800" fill="#0F172A" letter-spacing="-1">Caio Renato</text>
+  <text x="54" y="152" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="21" font-weight="600" fill="#0E7490" class="p1">Capturando bugs e automatizando processos.</text>
+  <text x="54" y="152" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="21" font-weight="600" fill="#0E7490" class="p2">Transformando dados em inteligência.</text>
+  <text x="54" y="152" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="21" font-weight="600" fill="#0E7490" class="p3">Construindo APIs, SaaS e sistemas multiagente.</text>
+  <text x="54" y="189" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" fill="#334155">Backend Python &amp; Flask · React PWA · PostgreSQL · n8n · IA Aplicada</text>
+  <text x="54" y="226" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" fill="#475569">&gt; Região: João Pessoa, BR · Classe: Treinador Full-Stack &amp; Dados<tspan fill="#0E7490" class="cursor"> ▌</tspan></text>
 
-  <text x="72" y="120" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="46" font-weight="800" fill="#0F172A" letter-spacing="-1">Caio Renato</text>
-
-  <!-- Rotating animated taglines -->
-  <g>
-    <text x="72" y="162" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#0E7490" class="p1">Transformando dados em inteligência.</text>
-    <text x="72" y="162" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#0E7490" class="p2">Automatizando processos de ponta a ponta.</text>
-    <text x="72" y="162" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#0E7490" class="p3">Criando soluções com Backend, Dados e IA.</text>
+  <g class="float">
+    <circle cx="770" cy="130" r="82" fill="none" stroke="#CBD5E1" stroke-width="1.2" stroke-dasharray="6 6"/>
+    <circle cx="770" cy="130" r="62" fill="none" stroke="#0E7490" stroke-width="2" class="ping"/>
+    <circle cx="770" cy="130" r="62" fill="none" stroke="#0E7490" stroke-width="2" class="ping ping2"/>
+    <g class="shake">
+      <path d="M 708 130 A 62 62 0 0 1 832 130 Z" fill="#4F46E5"/><path d="M 708 130 A 62 62 0 0 0 832 130 Z" fill="#E2E8F0"/><circle cx="770" cy="130" r="62" fill="none" stroke="#94A3B8" stroke-width="3"/><line x1="708" y1="130" x2="832" y2="130" stroke="#0F172A" stroke-width="7.4"/><circle cx="770" cy="130" r="18.0" fill="#FFFFFF" stroke="#0E7490" stroke-width="3" class="btn"/>
+    </g>
   </g>
-
-  <text x="72" y="200" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" font-weight="400" fill="#334155">Python &amp; Flask · React PWA · PostgreSQL · n8n · Sistemas Multiagente</text>
-  <text x="72" y="236" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13" fill="#475569">&gt; João Pessoa, Brasil · Open Source &amp; SaaS</text>
-  <rect x="412" y="223" width="8" height="15" rx="1.5" fill="#0E7490" class="cursor"/>
+  <path d="M 560 57 L 561.96 62.04 L 567 64 L 561.96 65.96 L 560 71 L 558.04 65.96 L 553 64 L 558.04 62.04 Z" fill="#0891B2" class="tw t1" style="animation-delay:0s;transform-origin:560px 64px"/><path d="M 655 200 L 656.4 203.6 L 660 205 L 656.4 206.4 L 655 210 L 653.6 206.4 L 650 205 L 653.6 203.6 Z" fill="#4F46E5" class="tw t2" style="animation-delay:0.9s;transform-origin:655px 205px"/><path d="M 838 34 L 839.68 38.32 L 844 40 L 839.68 41.68 L 838 46 L 836.32 41.68 L 832 40 L 836.32 38.32 Z" fill="#0891B2" class="tw t1" style="animation-delay:1.7s;transform-origin:838px 40px"/><path d="M 700 116 L 701.12 118.88 L 704 120 L 701.12 121.12 L 700 124 L 698.88 121.12 L 696 120 L 698.88 118.88 Z" fill="#4F46E5" class="tw t2" style="animation-delay:0.4s;transform-origin:700px 120px"/><path d="M 860 208 L 861.96 213.04 L 867 215 L 861.96 216.96 L 860 222 L 858.04 216.96 L 853 215 L 858.04 213.04 Z" fill="#0891B2" class="tw t1" style="animation-delay:2.3s;transform-origin:860px 215px"/><path d="M 610 166 L 611.12 168.88 L 614 170 L 611.12 171.12 L 610 174 L 608.88 171.12 L 606 170 L 608.88 168.88 Z" fill="#0891B2" class="tw t2" style="animation-delay:1.3s;transform-origin:610px 170px"/>
 </svg>
