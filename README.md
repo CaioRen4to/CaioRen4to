@@ -35,54 +35,10 @@ Oi, eu sou o **Caio**! Estudo **Análise e Desenvolvimento de Sistemas (ADS, 202
 - **O que construo:** sistemas completos ponta a ponta, da modelagem do banco e das regras de negócio em APIs REST até interfaces responsivas, fluxos automatizados e arquiteturas multiagente.
 - **Como falar comigo:** pelos botões de contato acima (LinkedIn, e-mail ou Instagram).
 
-> Neste perfil, cada Pokémon representa uma parte da minha jornada e da minha stack. Role a página para conhecer a equipe!
-
----
-
-## Minha Linha Evolutiva
-
-Como o Charmander que vira Charizard, eu sigo evoluindo a cada projeto:
-
-<div align="center">
-
-| Charmander | Charmeleon | Charizard |
-|:---:|:---:|:---:|
-| <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/4.gif" height="80" alt="Charmander animado"> | <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/5.gif" height="80" alt="Charmeleon animado"> | <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/6.gif" height="80" alt="Charizard animado"> |
-| **Começo** | **Aprendendo** | **Construindo** |
-| Lógica e Python | APIs, bancos de dados e React | Sistemas completos em produção |
-
-</div>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10034.gif" height="110" alt="Mega Charizard X animado">
-  <br>
-  <sub><strong>Próxima forma:</strong> Mega Charizard X, arquiteturas multiagente com IA aplicada.</sub>
-</p>
-
----
-
-## Equipe Pokémon em Campo
-
-Cada parceiro representa uma camada da minha stack:
-
-<div align="center">
-
-| Backend & APIs | Dados & Banco | Frontend & PWA |
-|:---:|:---:|:---:|
-| <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/448.gif" height="72" alt="Lucario animado"> | <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/376.gif" height="72" alt="Metagross animado"> | <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/658.gif" height="72" alt="Greninja animado"> |
-| **Lucario** | **Metagross** | **Greninja** |
-| `Python · Flask` | `PostgreSQL · SQL` | `React · Vite · TS` |
-
-| Automações & Bots | IA & Multiagentes | Infra & Deploy |
-|:---:|:---:|:---:|
-| <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/94.gif" height="72" alt="Gengar animado"> | <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/479.gif" height="72" alt="Rotom animado"> | <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/6.gif" height="72" alt="Charizard animado"> |
-| **Gengar** | **Rotom** | **Charizard** |
-| `n8n · Webhooks` | `GPT · Gemini · Claude` | `Docker · Git · CI` |
-
-</div>
-
 <p align="center">
   <img src="https://pokereadme.murilonoguez.com.br/api?user=CaioRen4to&pokes=6,448,94" alt="Time Pokémon que evolui conforme os commits de Caio Renato: Charmander, Riolu e Gastly">
+  <br>
+  <sub>Meu time Pokémon evolui conforme eu faço commits no GitHub.</sub>
 </p>
 
 ---
