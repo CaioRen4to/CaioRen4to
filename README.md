@@ -1,9 +1,11 @@
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
-    <img src="assets/hero-dark.svg" alt="Banner do perfil de Caio Renato com um Mega Charizard X animado: Olá! Eu sou Caio Renato, Pokédex Dev" width="100%">
-  </picture>
+  <a href="https://caioren4to.github.io/" target="_blank" rel="noopener noreferrer" title="Abrir a Pokédex Dev, portfólio interativo de Caio Renato">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
+      <img src="assets/hero-dark.svg" alt="Abrir a Pokédex Dev de Caio Renato com Mega Charizard X" width="100%">
+    </picture>
+  </a>
 </p>
 
 <p align="center">
@@ -12,6 +14,12 @@
     <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=2600&pause=1300&repeat=true&center=true&vCenter=true&width=680&height=38&lines=Backend+Python+%26+Flask+%7C+APIs+REST+%26+JWT;React+%26+Vite+PWA+%7C+Interfaces+Responsivas;PostgreSQL+%26+Dados+%7C+Automa%C3%A7%C3%B5es+n8n;Sistemas+Multiagente+com+IA+Aplicada&color=0E7490">
     <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=2600&pause=1300&repeat=true&center=true&vCenter=true&width=680&height=38&lines=Backend+Python+%26+Flask+%7C+APIs+REST+%26+JWT;React+%26+Vite+PWA+%7C+Interfaces+Responsivas;PostgreSQL+%26+Dados+%7C+Automa%C3%A7%C3%B5es+n8n;Sistemas+Multiagente+com+IA+Aplicada&color=22D3EE" alt="Especialidades de Caio Renato: Backend Python e Flask, React e Vite PWA, PostgreSQL e automações n8n, sistemas multiagente com IA" width="680">
   </picture>
+</p>
+
+<p align="center">
+  <a href="https://caioren4to.github.io/" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Pok%C3%A9dex%20Dev-%C2%B7%20Portf%C3%B3lio%20Interativo-0E7490?style=for-the-badge&amp;labelColor=4F46E5" alt="Pokédex Dev · Portfólio Interativo"></a>
+  <br>
+  <sub>Explore a arquitetura do Fluire e experimente a simulação do Agent Company.</sub>
 </p>
 
 <p align="center">
