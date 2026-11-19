@@ -25,7 +25,7 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/devcaiorenato" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/LinkedIn-2563EB?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn de Caio Renato"></a>
   <a href="mailto:caio.renato011@gmail.com"><img src="https://img.shields.io/badge/Email-4F46E5?style=flat-square&logo=gmail&logoColor=white" alt="Enviar e-mail para Caio Renato"></a>
-  <a href="https://www.instagram.com/caio.renato0" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Instagram-0E7490?style=flat-square&logo=instagram&logoColor=white" alt="Instagram de Caio Renato"></a>
+  <a href="https://www.instagram.com/caio.renat0/" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Instagram-0E7490?style=flat-square&logo=instagram&logoColor=white" alt="Instagram de Caio Renato"></a>
   <a href="https://github.com/CaioRen4to?tab=followers" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/github/followers/CaioRen4to?style=flat-square&color=6366F1&label=Seguidores&logo=github&logoColor=white" alt="Seguidores no GitHub"></a>
 </p>
 
